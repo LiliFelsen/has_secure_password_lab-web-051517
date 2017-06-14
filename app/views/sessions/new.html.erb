@@ -1,0 +1,7 @@
+<%= form_tag login_path do %>
+  Username: <br>
+  <%= text_field_tag 'user[name]' %><br>
+  Password: <br>
+  <%= password_field_tag 'user[password]' %><br>
+  <%= button_tag "Log in", type:'submit' %>
+<% end %>
